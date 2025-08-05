@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio bootstrap</title>
+</head>
+
+<body style="background-color: rgb(131, 171, 231);">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">electricos unidos</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">portafolio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    servicios
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Instalación Eléctrica</a></li>
+                                    <li><a class="dropdown-item" href="#">Reparación de daños</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Servicios a la medida</a></li>
+                                </ul>
+                            </li>|
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="buscar" aria-label="buscar" />
+                            <button class="btn btn-outline-success" type="submit">buscar</button>
+                        </form>
+                    </div>
+
+                </div>
+            </nav>
+
+
+        </div>
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img2.jfif" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img1.jfif" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="accordion" id="accordionExample" data-bs-theme="dark">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Su mejor servicio
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Nos aseguramos de que todos nuestros proyectos se realicen de acuerdo con las normativas
+                            vigentes, garantizando no solo la eficiencia energética, sino también la seguridad de
+                            nuestros clientes. Desde la instalación de sistemas eléctricos completos hasta el
+                            mantenimiento preventivo y correctivo, trabajamos con las mejores herramientas y materiales
+                            del mercado, brindando soluciones personalizadas que se ajustan a las necesidades
+                            específicas de cada cliente.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Llegamos donde sea
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            nos especializamos en llevar nuestros servicios eléctricos a cualquier rincón donde los
+                            necesites. Ya sea en tu hogar, oficina, fábrica o cualquier otro lugar, nuestro equipo de
+                            profesionales altamente capacitados está listo para ofrecerte soluciones eficaces, seguras y
+                            de alta calidad, sin importar la distancia o la ubicación.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Rapido y eficaz
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            sabemos que cuando se trata de electricidad, cada minuto cuenta.
+                            Por eso, ofrecemos un servicio rápido y eficaz, para que no tengas que esperar más de lo
+                            necesario. Nuestro equipo de expertos está preparado para resolver cualquier inconveniente
+                            eléctrico de forma ágil y sin compromisos con la calidad.
+
+                            Ya sea que necesites una instalación, reparación o mantenimiento, garantizamos un trabajo
+                            eficiente que se ajusta a tus necesidades, sin demoras innecesarias. lo primero es tu
+                            tranquilidad, y por eso nos aseguramos de que todo se haga con
+                            precisión y en el menor tiempo posible.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Trabajador1.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"> pocoyo – Jefe de Instalaciones
+
+                            Pocoyo tiene más de 10 años de experiencia trabajando con electricidad. Se encarga de
+                            supervisar y coordinar las instalaciones más importantes, ya sea en casas, oficinas o
+                            locales comerciales. Siempre está atento a cada detalle para asegurarse de que todo funcione
+                            a la perfección.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="burbuja.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"> Burbuja – Técnica en Mantenimiento
+
+                            Burbuja es nuestra experta en reparaciones y mantenimiento. Siempre está lista para
+                            solucionar
+                            cualquier problema eléctrico que surja, y lo hace de manera rápida y eficiente. A Burbuja le
+                            encanta ayudar a las personas a evitar contratiempos y siempre está buscando la mejor manera
+                            de resolver las situaciones.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="stich.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Stitch – Asesor de Proyectos Eléctricos
+
+                            stitch es quien se encarga de escuchar las necesidades de los clientes y ayudarles a
+                            encontrar las mejores soluciones eléctricas. Siempre tiene ideas innovadoras y prácticas
+                            para hacer los proyectos más fáciles y eficientes, sin complicaciones.</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="row">
+
+        </div>
+    </div>
+</body>
+
+</html>
