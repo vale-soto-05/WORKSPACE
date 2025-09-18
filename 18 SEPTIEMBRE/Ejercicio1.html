@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar y ocultar imagen</title>
+    <style>
+        #miImagen {
+            display: none; 
+            width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="toggleImage()">Mostrar/Ocultar Imagen</button>
+
+    <img id="miImagen" src="razas-de-gatos.avif" alt="Imagen de ejemplo">
+
+    <script>
+        function toggleImage() {
+            var imagen = document.getElementById("miImagen");
+            if (imagen.style.display === "none") {
+                imagen.style.display = "block"; 
+            } else {
+                imagen.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
